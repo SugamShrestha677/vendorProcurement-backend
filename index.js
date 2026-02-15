@@ -10,9 +10,6 @@ const invoiceRoutes = require('./src/routes/invoiceRoutes');
 
 const app = express();
 
-// Connect to Database
-connectDB();
-
 // Middleware
 app.use(cors());
 app.use(express.json());
